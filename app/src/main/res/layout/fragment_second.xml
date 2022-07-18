@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingHorizontal="16dp">
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:hint="Name"
+        android:textColor="@color/black"
+        android:textColorHint="#5A5A5A"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edtRocket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="8dp"
+        android:backgroundTint="@color/black"
+        android:hint="Rocket"
+        android:textColor="@color/black"
+        android:textColorHint="#5A5A5A"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edtTwitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:hint="Twitter"
+        android:textColor="@color/black"
+        android:textColorHint="#5A5A5A"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        android:text="Save"
+        android:textColor="@color/white" />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        android:text="Delete"
+        android:textColor="@color/white" />
+
+</LinearLayout>
